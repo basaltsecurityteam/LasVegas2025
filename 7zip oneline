@@ -1,0 +1,1 @@
+Invoke-WebRequest "https://www.7-zip.org/a/7z2408-x64.exe" -OutFile "$env:TEMP\7z.exe"; Start-Process "$env:TEMP\7z.exe" -ArgumentList "/S" -Wait
